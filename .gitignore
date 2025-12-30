@@ -1,0 +1,87 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production builds
+dist/
+build/
+.output/
+.vinxi/
+client/
+server/
+
+# Environment variables
+#.env
+#.env.local
+#.env.development.local
+#.env.test.local
+#.env.production.local
+
+# Vite cache
+.vite/
+
+# Database
+*.db
+*.db-journal
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vercel
+.svelte-kit/
+*.tsbuildinfo
+
+# TanStack Start specific
+# Build artifacts are typically in .output/, .vinxi/, client/, and server/
+# The app.config.ts can have a buildDirectory option that affects this
+
+# Optional: if you're using a SQLite database in development
+dev.db
+dev.db-journal
+
+# Optional: if you're deploying to Netlify
+.netlify/
+
+# Optional: if you're using Cloudflare
+.wrangler/
+cf/
+
+# Optional: if you're using Turborepo
+.turbo/
